@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Unbxd_Datafeeder>
+            <version>0.1.0</version>
+        </Unbxd_Datafeeder>
+    </modules>
+    <global>
+
+		<models>	
+			<unbxd_datafeeder>
+				<class>Unbxd_Datafeeder_Model</class>
+			</unbxd_datafeeder>
+		</models>
+    </global>
+
+	<crontab>
+	    <jobs>
+		<Unbxd_Datafeeder>
+		    <schedule><cron_expr>*/1 * * * *</cron_expr></schedule>
+		    <run><model>unbxd_datafeeder/observer::feed</model></run>
+		</Unbxd_Datafeeder>
+	    </jobs>
+	</crontab>
+</config>
+
+    

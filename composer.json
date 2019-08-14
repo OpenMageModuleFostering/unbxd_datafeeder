@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/unbxd_datafeeder",
+    "type": "magento-module",
+    "license": "commercial-proprietary",
+    "homepage": "",
+    "description": "Uploads data",
+    "authors": [
+    {
+        "name": "unbxd",
+        "email": "ananthesh.adiga@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

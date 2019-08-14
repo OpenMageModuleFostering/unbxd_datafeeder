@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>unbxd_datafeeder</name>
+    <version>0.0.2</version>
+    <stability>stable</stability>
+    <license>commercial proprietary</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Uploads data</summary>
+    <description>uploads data</description>
+    <notes>alksdlka</notes>
+    <authors><author><name>unbxd</name><user>unbxd</user><email>ananthesh.adiga@gmail.com</email></author></authors>
+    <date>2012-07-16</date>
+    <time>02:23:51</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Unbxd_Datafeeder.xml" hash="cf561ad820f281e52ddfbf97f2e474da"/></dir></target><target name="magelocal"><dir name="Unbxd"><dir name="Datafeeder"><dir name="Model"><file name="Observer.php" hash="173d53c5a562575a357bf28772c3f2ed"/><file name="Observer.php~" hash="173d53c5a562575a357bf28772c3f2ed"/></dir><dir name="etc"><file name="config.xml" hash="c42ff5f4933630d3f24daabfea535f31"/><file name="config.xml~" hash="62143db655a710b95c9cf80a1c589fa3"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.1.0</max></php></required></dependencies>
+</package>
